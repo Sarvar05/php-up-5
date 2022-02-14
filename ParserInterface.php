@@ -11,5 +11,5 @@ interface ParserInterface
      * @param string $tag
      * @return array
      */
-    public function process(string $url, string $tag): array;
+    public function process(string $url, string $tag): array|bool;
 }
