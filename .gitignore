@@ -1,1 +1,5 @@
 /nbproject/
+docker-compose.yml
+index.php
+nginx.conf
+PHP.Dockerfile

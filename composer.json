@@ -1,0 +1,21 @@
+{
+    "name": "sarvar05/composer-example-package",
+    "description": "Example Project",
+    "type": "library",
+    "require": {
+        "php": "^8.1"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "Sarvar05\\ComposerExamplePackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sarvar Akbarov",
+            "email": "sarvarakbarov0505@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
