@@ -1,6 +1,6 @@
 <?php
 
-require_once 'ParserInterface.php';
+namespace sarvar05\parser;
 
 /**
  * @author Victor Zinchenko <zinchenko.us@gmail.com>
@@ -24,7 +24,7 @@ class Parser implements ParserInterface
             return false;
         } else {
 
-            $dom = new DomDocument();
+            $dom = new \DomDocument();
             $dom->loadHTML($html);
 
             $tags = $dom->getElementsByTagName('a');

@@ -1,5 +1,7 @@
 <?php
 
+namespace sarvar05\parser;
+
 /**
  * @author Victor Zinchenko <zinchenko.us@gmail.com>
  */
